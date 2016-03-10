@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Pie and Donut Chart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Chart.js"></script>
+        <link rel="stylesheet" href="mainStylePieChart.css">
+    </head>
+    <body>
+        <div id="header">Simple Pie Chart</div>
+        <br>
+        <div id="main">
+            Put your data here:
+            <br>
+            Value 1:
+            <input type="number" class="in" id="v1" value="105" onclick="updateChart('v1')" onkeyup="updateChart('v1')"/>
+            <br>
+            Value 2:
+            <input type="number" class="in" id="v2" value="208" onclick="updateChart('v2')" onkeyup="updateChart('v2')"/>
+            <br>
+            Value 3:
+            <input type="number" class="in" id="v3" value="86" onclick="updateChart('v3')" onkeyup="updateChart('v3')"/>
+            <br>
+        </div>
+        <canvas id="myChart" width="300" height="300"></canvas>
+        <canvas id="myChart2" width="300" height="300"></canvas>
+        <script src="chartData.js"></script>
+        <div id="footer">
+            Created by Urszula Frątczak
+            <br>
+            Powered by <a href="http://www.chartjs.org/">Chart.js</a>
+        </div>
+    </body>
+</html>
