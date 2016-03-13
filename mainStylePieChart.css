@@ -1,12 +1,21 @@
+/*
+ *	settings of margin and padding for all elements 
+ */
 * {
 	margin: 0px;
 	padding: 0px;
 }
 
+/*
+ *	set body background color 
+ */
 body{
 	background-color: #FFF8DF;
 }
 
+/*
+ * 	set of height, font, background color for div with id = 'header'
+ */
 #header {
 	height: 60px;
 	font-size: 40px;
@@ -17,6 +26,38 @@ body{
 	padding-top: 10px;
 }
 
+/*
+ * 	set of font size and style for div with id = 'main'
+ */ 
+#main {
+	font-size: 18px;
+	margin-left: 44%;
+	margin-top: 3%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*	
+ *	set font size and style for all input, class name = 'in'
+ *	set input width 
+ */
+.in {
+	font-size: 16px;
+	width: 100px;
+}
+
+/*	
+ * 	margin of canvases, where is a pie and donut charts	
+ */
+#myChart, #myChart2{
+	margin-left: 18%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+/*
+ * 	set of height, font, background color for div with id = 'footer'
+ */
 #footer {
 	height: 30px;
 	padding-top: 10px;
@@ -26,24 +67,4 @@ body{
 	text-align: center;
 	background-color: #9AE4E1;
 	margin-bottom: 0px;
-	
-}
-
-#main {
-	font-size: 18px;
-	margin-left: 44%;
-	margin-top: 3%;
-	font-weight: bold;
-	font-style: italic;
-}
-
-#myChart, #myChart2{
-	margin-left: 18%;
-	margin-bottom: 5%;
-	margin-top: 5%;
-}
-
-.in {
-	font-size: 16px;
-	width: 100px;
 }
